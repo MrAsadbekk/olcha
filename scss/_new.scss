@@ -1,0 +1,163 @@
+.new {
+  &-box {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 130px;
+    padding-left: 147px;
+    background-image: url(../img/olcha.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 900px;
+  }
+  &-title {
+    margin: 0;
+    padding: 0;
+    width: 425px;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+  &_title__span {
+    padding: 3px;
+    color: white;
+    background-color: #43b02a;
+    border-radius: 4px;
+  }
+  &-text {
+    width: 485px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  &-list-title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+  }
+  &-list-text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #8c8ca2;
+  }
+  &-list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -40px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 16px;
+  }
+  &-item {
+    position: relative;
+    margin-bottom: 80px;
+    width: 271px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &-item_one::before {
+    display: inline-block;
+    content: "chegirma";
+    font-weight: 450;
+    font-size: 10px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 62px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #16ca53;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+  &_img {
+    margin-bottom: 30px;
+  }
+  &_img__one {
+    margin-bottom: 95px;
+  }
+  &_link {
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #fafcfe;
+    background-color: #eb1537;
+    text-decoration: none;
+  }
+  &_link__one {
+    margin-bottom: 31px;
+  }
+  &_text__one {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8c8ca2;
+  }
+  &_text__two {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    width: 271px;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #0e0e2c;
+  }
+  &_text__three {
+    margin-bottom: 36px;
+  }
+  &_text__four {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #f04f69;
+  }
+  &_form {
+    display: flex;
+    gap: 3px;
+  }
+  &_star {
+    display: none;
+  }
+  &_star__img {
+    cursor: pointer;
+  }
+  &_star:checked + &_star__img svg path {
+    fill: yellow;
+  }
+  &_btn {
+    margin-left: 485px;
+    margin-bottom: 70px;
+    padding: 15px 20px;
+    border: 1px solid #0e0e2c;
+    border-radius: 6px;
+    background-color: transparent;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 100%;
+    color: #0e0e2c;
+    cursor: pointer;
+  }
+}
