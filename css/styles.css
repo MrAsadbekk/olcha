@@ -1117,4 +1117,136 @@ img {
   border: 1px solid #ffffff;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.discount-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+}
+.discount-text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 70px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #8c8ca2;
+}
+.discount-list {
+  margin: 0;
+  padding: 0;
+  margin-bottom: -40px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  list-style-type: none;
+  gap: 16px;
+}
+.discount_item {
+  position: relative;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 271px;
+}
+.discount_item::before {
+  display: inline-block;
+  content: "chegirma";
+  padding: 4px;
+  font-weight: 450;
+  font-size: 10px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #16ca53;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.discount_img {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.discount_img__one {
+  margin-bottom: 95px;
+}
+.discount_link {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #eb1537;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  color: #fafcfe;
+  text-decoration: none;
+}
+.discount_text__one {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 23px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #f04f69;
+}
+.discount_text__two {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #8c8ca2;
+}
+.discount_text__three {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  width: 271px;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #0e0e2c;
+}
+.discount_text__four {
+  margin-bottom: 40px;
+}
+.discount_text__fiwe {
+  margin-bottom: 31px;
+}
+.discount_form {
+  display: flex;
+  gap: 3px;
+}
+.discount_star {
+  display: none;
+}
+.discount_star__img {
+  cursor: pointer;
+}
+.discount_star:checked + .discount_star__img svg path {
+  fill: yellow;
+}
+.discount_btn {
+  margin-left: 435px;
+  margin-bottom: 100px;
+  padding: 15px 20px;
+  border: 1px solid #0e0e2c;
+  border-radius: 6px;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 100%;
+  color: #0e0e2c;
+  background-color: transparent;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
