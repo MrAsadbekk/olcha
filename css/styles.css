@@ -1249,4 +1249,126 @@ img {
   color: #0e0e2c;
   background-color: transparent;
   cursor: pointer;
+}
+
+.latest_title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+}
+.latest_text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #8c8ca2;
+}
+.latest-list {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
+  list-style-type: none;
+  display: flex;
+  gap: 52px;
+}
+.latest-item {
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 344px;
+}
+.latest_img {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.latest-box {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.latest-box_one {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.latest-box_two {
+  margin: 0;
+  padding: 0;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-bottom: 9px;
+  width: 50px;
+  background-color: #ffedab;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.latest_text__one {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.latest_text__two {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+.latest_text__three {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+.latest_text__three::before {
+  display: inline-block;
+  content: url(../img/eye.svg);
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -18px;
+}
+.latest_text__four {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+}
+.latest_text__fiwe {
+  color: #eb1537;
+}
+.latest_btn {
+  padding: 15px 20px;
+  margin-left: 482px;
+  margin-bottom: 150px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #0e0e2c;
+  border: 1px solid #0e0e2c;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
