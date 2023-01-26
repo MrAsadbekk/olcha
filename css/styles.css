@@ -1371,4 +1371,107 @@ img {
   border-radius: 6px;
   background-color: transparent;
   cursor: pointer;
+}
+
+.footer-box {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 84px;
+}
+.footer-box-one {
+  margin: 0;
+  padding: 0;
+  width: 225px;
+}
+.footer_logo {
+  margin-bottom: 20px;
+  display: block;
+}
+.footer_text {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #0e0e2c;
+}
+.footer_text__one {
+  margin: 0;
+  padding: 0;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 33px;
+  color: #0e0e2c;
+}
+.footer_text__two {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 33px;
+  color: #0e0e2c;
+}
+.footer-box-two {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 53px;
+  width: 319px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  background-color: #ecf1f4;
+  border: 1px solid #d4dee7;
+  border-radius: 6px;
+}
+.footer-box-two::before {
+  display: inline-block;
+  content: url(../img/telphone.svg);
+  width: 100px;
+  height: 83px;
+  position: absolute;
+  right: 0;
+  top: -20px;
+}
+.footer_text__three {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #0e0e2c;
+}
+.footer_text__four {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #0e0e2c;
+}
+.footer-box-three {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+.footer_text__fiwe {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
 }/*# sourceMappingURL=styles.css.map */
